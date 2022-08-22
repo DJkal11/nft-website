@@ -7,12 +7,18 @@
 </svelte:head>
 
 <div class="scroll-smooth"> 
-    <div class="intro h-screen bg-fixed p-52">
+    <div class="intro h-screen bg-fixed p-52 flex flex-row gap-20">
+        <div>
         <h1 class="text-white text-6xl font-extrabold mb-10">CREATE YOUR NFTS</h1>
-        <p class="text-white text-3xl font-normal">Create static traditional type NFTs or unique Smart NFTs that can be programmed
+        <p class="text-white text-2xl font-normal">Create static traditional type NFTs or unique Smart NFTs that can be programmed
              to interact in real-time with events and objects in both the physical and digital worlds.
             START WITH THE NFTS
             </p>
+        </div>
+        <div class=""> 
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets2.lottiefiles.com/private_files/lf30_iyicd2xy.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop autoplay></lottie-player>
+        </div>  
     </div>
 
     <div class="flex flex-row gap-32 px-52 pt-32 section-2"> 
@@ -34,8 +40,9 @@
     </div>
 
     <div class="flex flex-row gap-32 px-52 pt-32 section-3"> 
-        <div class=" rounded-full"> 
-            <img class="w-full rounded-full" alt="nft" src="https://images.unsplash.com/photo-1592950630581-03cb41342cc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" />
+        <div class=" "> 
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_57h2lzaw.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
         </div>
 
         <div class="w-9/12 mt-20"> 
@@ -54,12 +61,23 @@
         </div>
 
     </div>
+
+    <div class="px-52 pt-32"> 
+        <h1 class="text-6xl text-center font-extrabold mb-10">WITH FRIEND A LABS YOU ALSO
+            <br /><span class="text-orange-500">MINT FOR FREE!</span></h1>
+
+            <div class="mt-10 mb-20"> 
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_qbui0szg/TEST_002_final.json"  background="transparent"  speed="1" class="m-auto rounded-full"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+            </div>
+
+    </div>
   
 </div>
 
 <style> 
 .intro {
- background-image: url("https://images.unsplash.com/photo-1653376813085-9ce473ec934e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+ background-image: url("https://images.unsplash.com/photo-1617957718614-8c23f060c2d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80");
  background-size: cover;
 }
 
