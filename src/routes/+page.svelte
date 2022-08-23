@@ -3,7 +3,7 @@
 	import Mobile from "../lib/header/mobile.svg";
 	
 
-	let heading = false;
+	let heading = true;
 	let m = { x: 0, y: 0 };
 
 	function handleMousemove(event) {
@@ -12,13 +12,16 @@
 	console.log(m.x);
 	}
 
-	function handleChange() {
+	function mouseEnter() {
 		if(heading === false){
 		heading = true;
 		} 
-		else {
-			heading = false;
-		}
+	}
+
+	function mouseLeave () {
+		if(heading === true){
+		heading = false;
+		} 
 	}
 	
 	</script>
@@ -34,7 +37,7 @@
 	<div style="left: {m.x}px; top: {m.y}px;" class="{heading? 'grow z-20 text-transparent' : 'inner-cursor'}"></div>
 	<div style="left: {m.x}px; top: {m.y}px;" class="outer-cursor"></div>	
 <div  class="z-0 mt-20 px-10 sm:px-52 element text-white"> 
- <h1  on:mouseover={handleChange} on:focus={() => { heading = true}} on:mouseout={handleChange} class="text-6xl sm:text-9xl font-extrabold ">THE PLATFORM YOUR METAVERSE IS BUILT ON</h1>
+ <h1 on:mouseover={mouseEnter}  on:mouseout={mouseLeave} class="text-6xl sm:text-9xl font-extrabold intro-text">THE PLATFORM YOUR METAVERSE IS BUILT ON</h1>
 	
 </div>
 
@@ -158,6 +161,8 @@
 </section>
 
 <style>
+
+	
 	.img-2 {
 	 top: 15rem;	
      left: 50rem;
@@ -172,6 +177,19 @@
 		position: fixed;
 		width: 20px;
 		height: 20px;
+		transform: translate(-50%, -50%);
+		background-color: rgb(255, 106, 0);
+		mix-blend-mode: difference;
+		border-radius: 50%;
+		pointer-events: none;
+		transition: width 0.5s, height 0.5s;
+	}
+
+	.intro-text:hover ~ .inner-cursor {
+		z-index: 99;
+		position: fixed;
+		width: 450px;
+		height: 450px;
 		transform: translate(-50%, -50%);
 		background-color: rgb(255, 106, 0);
 		mix-blend-mode: difference;
