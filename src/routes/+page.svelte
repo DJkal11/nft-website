@@ -33,16 +33,16 @@
 
 </svelte:head>
 
-<section class="cursor-none" on:mousemove={handleMousemove}>
-	<div style="left: {m.x}px; top: {m.y}px;" class="{heading? 'grow z-20 text-transparent' : 'inner-cursor'}"></div>
-	<div style="left: {m.x}px; top: {m.y}px;" class="outer-cursor"></div>	
-<div  class="z-0 mt-20 px-10 sm:px-52 element text-white"> 
- <h1 on:mouseover={mouseEnter}  on:mouseout={mouseLeave} class="text-6xl sm:text-9xl font-extrabold intro-text">THE PLATFORM YOUR METAVERSE IS BUILT ON</h1>
+<section class="" on:mousemove={handleMousemove}>
+	<!-- <div style="left: {m.x}px; top: {m.y}px;" class="inner-cursor"></div>
+	<div style="left: {m.x}px; top: {m.y}px;" class="outer-cursor"></div>	 -->
+<div  class="z-0 mt-10 px-10 sm:px-52 element text-white"> 
+ <h1 class="text-6xl cooper sm:text-9xl sm:pt-20 font-bold text-transparent bg-clip-text bg-gradient-to-br from-purple-400 via-pink-400  to-gray-600 animate-text transition-colors">THE PLATFORM YOUR METAVERSE IS BUILT ON</h1>
 	
 </div>
 
 <div class="mt-40 px-0 sm:px-52"> 
-	<h1 class="p-8 sm:p-28 pb-5 font-bold text-4xl">The world's most successful brands trust the Vatom platform to help them create,
+	<h1 class="p-8 montserrat sm:p-28 pb-5 font-bold text-4xl">The world's most successful brands trust the Vatom platform to help them create,
 		 own, promote, and sell within their own Metaverse.</h1>	 
 
 </div>
@@ -53,7 +53,7 @@
 
 <div class="mt-24 px-0 sm:px-52"> 
 	<div class="p-8 sm:p-32">
-	<h1 class="text-4xl font-bold pb-10">All the features you need to start, run, and grow your business on the Metaverse.</h1>
+	<h1 class="text-4xl montserrat font-bold pb-10">All the features you need to start, run, and grow your business on the Metaverse.</h1>
 	<button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
 		<span class="relative text-2xl px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
 			Pink to orange
@@ -64,13 +64,13 @@
 
 <div class="mt-32 px-10 sm:px-52"> 
 	<div class="text-left"> 
-      <h1 class="text-6xl text-orange-500 font-extrabold">THE WORLD’S BIGGEST BRANDS ARE CHOOSING EDITIONS.</h1>
+      <h1 class="text-6xl cooper brick-pink font-extrabold">THE WORLD’S BIGGEST BRANDS ARE CHOOSING EDITIONS.</h1>
 	</div>
 
 	<div class="mt-28"> 
 		<div class="px-10 sm:px-44"> 
-       <h1 class="text-4xl font-bold pb-10">See how top brands from around the world are using the Vatom platform to extend their business into the Metaverse.</h1>
-	   <button type="button" class="text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+       <h1 class="text-4xl montserrat font-bold pb-10">See how top brands from around the world are using the Vatom platform to extend their business into the Metaverse.</h1>
+	   <button type="button" class="text-white space-cadet hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 		CASE STUDY
 		<svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
 	</button>
@@ -84,20 +84,20 @@
 
 <div class="mt-40 mb-72 px-1 sm:px-52 relative"> 
   <img class="w-80 absolute img-1 rounded-lg" alt="" src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg" />
-  <img class="w-80 absolute ml-44 img-2 rounded-lg" alt="" src="https://digiday.com/wp-content/uploads/sites/3/2022/07/Business-Bot.png" />
+  <img class="w-80 absolute ml-64 img-2 rounded-lg" alt="" src="https://digiday.com/wp-content/uploads/sites/3/2022/07/Business-Bot.png" />
   <img class="w-80 absolute img-3 rounded-lg" alt="" src="https://visionarymarketing.com/wp-content/uploads/2022/02/art-nfts-auction-2021-esther-barend.jpg.webp" />
 
   <div class="mt-40 pt-44">
-  <h1 class="text-5xl sm:text-6xl text-orange-500 font-extrabold p-10 px-10 sm:px-56">CREATE TRADITIONAL NFT’S</h1>
-  <h2 class="text-3xl ml-20 px-10 sm:px-44">Using the Vatom Studio feature easily create, promote, and sell your NFTs.</h2>
+  <h1 class="text-5xl cooper sm:text-6xl brick-pink font-extrabold p-10 px-10 sm:px-56">CREATE TRADITIONAL NFT’S</h1>
+  <h2 class="text-3xl montserrat ml-20 px-10 sm:px-44">Using the Vatom Studio feature easily create, promote, and sell your NFTs.</h2>
 </div>
 </div>
 
 
 <div class="pt-40 px-1 sm:px-52 flex flex-row"> 
 	<div> 
-	  <h1 class="text-6xl text-orange-500 font-extrabold p-10 px-10 sm:px-20">CREATE SMART NFT’S</h1>
-      <h2 class="text-2xl px-0 ml-20 sm:ml-0 sm:px-20">Only the Vatom platform enables next-generation ‘Smart NFTs”, programmable digital objects that you can see,
+	  <h1 class="text-6xl cooper brick-pink font-extrabold p-10 px-10 sm:px-20">CREATE SMART NFT’S</h1>
+      <h2 class="text-2xl montserrat px-0 ml-20 sm:ml-0 sm:px-20">Only the Vatom platform enables next-generation ‘Smart NFTs”, programmable digital objects that you can see,
 		 collect, trade, and redeem in both the real and digital worlds.</h2>
 	</div>
     <div>
@@ -107,24 +107,22 @@
 </div>
 
 
-<div class="mt-40 px-24 sm:px-52 flex flex-row"> 
-	<div class="-ml-28 mt-28"> 
-    <img alt="" src={Laptop} />
-	</div>
+<div class="mt-40 px-0 sm:px-52 flex flex-row"> 
 
-	<div class="text-left px-16"> 
-		<h1 class="text-6xl text-orange-500 font-extrabold p-10">CREATE YOUR VIRTUAL SPACE</h1>
-		<h2 class="text-2xl px-10 pb-10">Choose from a selection of prefab spaces or easily create your own!</h2>
-		<button type="button" class="text-white ml-10 bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+
+	<div class="text-center px-1 sm:px-10"> 
+		<h1 class="text-6xl cooper brick-pink font-extrabold p-5 sm:p-10">CREATE YOUR VIRTUAL SPACE</h1>
+		<h2 class="text-2xl montserrat px-10 pb-10">Choose from a selection of prefab spaces or easily create your own!</h2>
+		<button type="button" class="text-white m-auto sm:ml-10 space-cadet hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 			LEARN MORE
 			<svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
 		</button>
 	</div>
 
-	<div class="mt-64"> 
+	<!-- <div class="mt-6"> 
 		<img alt="" src={Mobile} />
 
-	</div>
+	</div> -->
 
 </div>
 
@@ -137,14 +135,14 @@
 
 <div class="flex flex-col sm:flex-row justify-around"> 
 	<div> 
-		<h1 class="text-6xl text-orange-500 font-extrabold p-10 px-12 ">PROMOTE, SHARE & SELL NFTS
+		<h1 class="text-6xl cooper brick-pink font-extrabold p-10 px-12 ">PROMOTE, SHARE & SELL NFTS
 		</h1>
 	</div>
 
 	<div class="mt-12 px-24"> 
-		<h2 class="text-2xl  pb-10">To help you promote, share, and sell your NFTs the Vatom platform allows you to easily
+		<h2 class="text-2xl montserrat  pb-10">To help you promote, share, and sell your NFTs the Vatom platform allows you to easily
 			 display your NFTs within your Metaverse space, drop-them in the real-world, or display in your very own marketplace.</h2>
-		<button type="button" class="text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+		<button type="button" class="text-white space-cadet hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 			START NOW
 			<svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
 		</button>
@@ -161,7 +159,24 @@
 </section>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cooper-hewitt-book');
 
+
+  .cooper {
+	font-family: 'Cooper Hewitt Bold', sans-serif;
+  }
+  .montserrat {
+	font-family: 'Montserrat', sans-serif;
+  }
+
+  .brick-pink {
+	color: #E85D75;
+  }
+
+  .space-cadet {
+	background-color: #34344A;
+  }
 	
 	.img-2 {
 	 top: 15rem;	
@@ -223,14 +238,6 @@
 		pointer-events: none;
 		
 	} */
-
-	.element {
-	text-shadow:
-		-2px -2px 0 rgb(255, 145, 0),
-		2px -2px 0 rgb(255, 145, 0),
-		-2px 2px 0 rgb(255, 145, 0),
-		2px 2px 0 rgb(255, 145, 0);
-}
 
 @media (max-width: 430px) {
 	.img-3 {
