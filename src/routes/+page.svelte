@@ -34,7 +34,7 @@
 	<div style="left: {m.x}px; top: {m.y}px;" class="{heading? 'grow z-20 text-transparent' : 'inner-cursor'}"></div>
 	<div style="left: {m.x}px; top: {m.y}px;" class="outer-cursor"></div>	
 <div  class="z-0 mt-20 px-10 sm:px-52 element text-white"> 
- <h1 on:mouseover={handleChange} on:mouseout={handleChange} class="text-6xl sm:text-9xl font-extrabold ">THE PLATFORM YOUR METAVERSE IS BUILT ON</h1>
+ <h1  on:mouseover={handleChange} on:focus={() => { heading = true}} on:mouseout={handleChange} class="text-6xl sm:text-9xl font-extrabold ">THE PLATFORM YOUR METAVERSE IS BUILT ON</h1>
 	
 </div>
 
