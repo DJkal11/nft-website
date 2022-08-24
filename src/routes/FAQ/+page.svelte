@@ -76,9 +76,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
     @import url('http://fonts.cdnfonts.com/css/cooper-hewitt-book');
     
-      .cooper-bold {
-        font-family: 'Cooper Hewitt Heavy', sans-serif;
-      }
       .cooper {
         font-family: 'Cooper Hewitt Bold', sans-serif;
       }
@@ -86,22 +83,8 @@
         font-family: 'Montserrat', sans-serif;
       }
     
-      .montserrat-bold {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bolder;
-      }
-    
-    
     .brick-pink {
         color: #E85D75;
-      }
-    
-      .brick-pink-bg {
-        background-color: #E85D75;
-      }
-    
-      .space-cadet {
-        background-color: #34344A;
       }
     
     </style>

@@ -141,10 +141,6 @@
 	color: #E85D75;
   }
 
-  .space-cadet {
-	background-color: #34344A;
-  }
-
 .section-2 {
     background: rgb(255,255,255);
 
