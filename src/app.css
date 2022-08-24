@@ -2,6 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.intro {
-	cursor: url(./lib/header/LOGO\ PURPLE.png);
-}

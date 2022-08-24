@@ -1,7 +1,6 @@
 <script>
     import { page } from '$app/stores'
 	import Header from '$lib/header/Header.svelte';
-	import '../app.css';
 	import Logo from "../lib/header/LOGO.png";
     import Transition from "./transition/+page.svelte"
 </script>
