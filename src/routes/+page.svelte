@@ -161,84 +161,16 @@
 	font-family: 'Montserrat', sans-serif;
   }
 
-  .montserrat-bold {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-  }
+  
 
   .brick-pink {
 	color: #E85D75;
   }
 
-  .space-cadet {
-	background-color: #34344A;
-  }
 	
-	.img-2 {
-	 top: 15rem;	
-     left: 50rem;
-	}
+	
 
-	.img-3 {
-     top: 35rem;
-	}
 
-	.inner-cursor {
-		z-index: 99;
-		position: fixed;
-		width: 20px;
-		height: 20px;
-		transform: translate(-50%, -50%);
-		background-color: rgb(255, 106, 0);
-		mix-blend-mode: difference;
-		border-radius: 50%;
-		pointer-events: none;
-		transition: width 0.5s, height 0.5s;
-	}
 
-	.intro-text:hover ~ .inner-cursor {
-		z-index: 99;
-		position: fixed;
-		width: 450px;
-		height: 450px;
-		transform: translate(-50%, -50%);
-		background-color: rgb(255, 106, 0);
-		mix-blend-mode: difference;
-		border-radius: 50%;
-		pointer-events: none;
-		transition: width 0.5s, height 0.5s;
-	}
-
-	.grow {
-		z-index: 99;
-		position: fixed;
-		width: 450px;
-		height: 450px;
-		transform: translate(-50%, -50%);
-		background-color: rgb(255, 106, 0);
-		mix-blend-mode: difference;
-		border-radius: 50%;
-		pointer-events: none;
-		transition: width 0.5s, height 0.5s;
-	}
-
-	/* .outer-cursor {
-		position: fixed;
-		left: 10px;
-		width: 70px;
-		height: 70px;
-		transform: translate(-50%, -50%);
-		border: 1px solid rgb(255, 0, 119);
-		mix-blend-mode: difference;
-		border-radius: 50%;
-		pointer-events: none;
-		
-	} */
-
-@media (max-width: 430px) {
-	.img-3 {
-     top: 39rem;
-	}
-}
 	
 </style>
