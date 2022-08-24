@@ -1,28 +1,13 @@
-<script >
-	import Laptop from "../lib/header/laptop.svg";
-	import Mobile from "../lib/header/mobile.svg";
-	
+<script  context="module" lang="js">
+	import Pic1 from "../lib/header/pic1.png";
+	import Pic2 from "../lib/header/Pic2.png";
+	import Pic3 from "../lib/header/pic3.png";
+	import Pic4 from "../lib/header/pic4.png";
+	import Pic5 from "../lib/header/pic5.webp";
 
-	let heading = true;
-	let m = { x: 0, y: 0 };
-
-	function handleMousemove(event) {
-	m.x = event.clientX;
-	m.y = event.clientY;
-	console.log(m.x);
-	}
-
-	function mouseEnter() {
-		if(heading === false){
-		heading = true;
-		} 
-	}
-
-	function mouseLeave () {
-		if(heading === true){
-		heading = false;
-		} 
-	}
+	let name = "";
+	let email = "";
+	let message = "";
 	
 	</script>
 
@@ -33,123 +18,129 @@
 
 </svelte:head>
 
-<section class="" on:mousemove={handleMousemove}>
+<section class="">
 	<!-- <div style="left: {m.x}px; top: {m.y}px;" class="inner-cursor"></div>
 	<div style="left: {m.x}px; top: {m.y}px;" class="outer-cursor"></div>	 -->
-<div  class="z-0 mt-10 px-10 sm:px-52 element text-white"> 
- <h1 class="text-6xl cooper sm:text-9xl sm:pt-20 font-bold text-transparent bg-clip-text bg-gradient-to-br from-purple-400 via-pink-400  to-gray-600 animate-text transition-colors">THE PLATFORM YOUR METAVERSE IS BUILT ON</h1>
-	
-</div>
-
-<div class="mt-40 px-0 sm:px-52"> 
-	<h1 class="p-8 montserrat sm:p-28 pb-5 font-bold text-4xl">The world's most successful brands trust the Vatom platform to help them create,
-		 own, promote, and sell within their own Metaverse.</h1>	 
-
-</div>
-<div class=" px-0 sm:px-52"> 
-	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-	<lottie-player class="m-auto w-96" src="https://assets2.lottiefiles.com/packages/lf20_2omr5gpu.json"  background="transparent"  speed="1"    loop autoplay></lottie-player>
-</div>
-
-<div class="mt-24 px-0 sm:px-52"> 
-	<div class="p-8 sm:p-32">
-	<h1 class="text-4xl montserrat font-bold pb-10">All the features you need to start, run, and grow your business on the Metaverse.</h1>
-	<button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
-		<span class="relative text-2xl px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-			Pink to orange
-		</span>
-	  </button>
-	</div>
-</div>
-
-<div class="mt-32 px-10 sm:px-52"> 
-	<div class="text-left"> 
-      <h1 class="text-6xl cooper brick-pink font-extrabold">THE WORLD’S BIGGEST BRANDS ARE CHOOSING EDITIONS.</h1>
-	</div>
-
-	<div class="mt-28"> 
-		<div class="px-10 sm:px-44"> 
-       <h1 class="text-4xl montserrat font-bold pb-10">See how top brands from around the world are using the Vatom platform to extend their business into the Metaverse.</h1>
-	   <button type="button" class="text-white space-cadet hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-		CASE STUDY
-		<svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-	</button>
+	<div class="intro h-full sm:h-screen  px-10 sm:px-52 pt-20 sm:pt-40 flex flex-col sm:flex-row gap-10">
+        <div class="w-5/12">
+        <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">Step into the future of the digital economy</h1>
+        <p class=" montserrat text-2xl font-normal">At Friend A Labs, we’re building blockchain-based tech to empower.
+            </p>
+            <a alt="" href="/about"><button class="bg-pink-600 hover:bg-black hover:text-white text-white font-bold py-4 px-6 rounded-full transition-colors mt-10">Learn More</button></a>
+        </div>
+        <div class="w-6/12"> 
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <img class="w-full mt-14 sm:w-full m-auto" alt="anime" src={Pic1}  />
+        </div>  
     </div>
+
+
+    <div class="px-10 sm:px-52">
+		<h1 class="cooper brick-pink text-6xl font-extrabold mb-10">Our Products</h1>
+	<div class="flex flex-col sm:flex-row gap-0 sm:gap-32 "> 
+        <div class=" "> 
+            <img class="w-full" alt="phone" src={Pic2} />
+        </div>
+
+        <div class="w-full sm:w-9/12 mt-20 sm:mt-40"> 
+            <p class="text-2xl montserrat">Our first product, Editions, enhances the discovery of NFTs and changes the financial incentives of the attention economy to empower creators to focus on creating.
+			</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="px-10 sm:px-52 pt-32">
+	<h1 class="cooper brick-pink text-6xl font-extrabold ">Editions</h1>
+<div class="flex flex-col sm:flex-row gap-0 sm:gap-32 "> 
+
+	<div class="w-full sm:w-full mt-20 sm:mt-20"> 
+		<h1 class="text-1xl font-medium mb-5"><b>Digital Asset Marketplace</b></h1>
+		<p class="text-1xl montserrat">Where artists create, and users view, buy, sell, trade, and use their digital art.
+		</p>
 	</div>
 
-</div>
-
-
-
-
-<div class="mt-40 mb-72 px-1 sm:px-52 relative"> 
-  <img class="w-80 absolute img-1 rounded-lg" alt="" src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/in/wp-content/uploads/2022/03/monkey-g412399084_1280.jpg" />
-  <img class="w-80 absolute ml-64 img-2 rounded-lg" alt="" src="https://digiday.com/wp-content/uploads/sites/3/2022/07/Business-Bot.png" />
-  <img class="w-80 absolute img-3 rounded-lg" alt="" src="https://visionarymarketing.com/wp-content/uploads/2022/02/art-nfts-auction-2021-esther-barend.jpg.webp" />
-
-  <div class="mt-40 pt-44">
-  <h1 class="text-5xl cooper sm:text-6xl brick-pink font-extrabold p-10 px-10 sm:px-56">CREATE TRADITIONAL NFT’S</h1>
-  <h2 class="text-3xl montserrat ml-20 px-10 sm:px-44">Using the Vatom Studio feature easily create, promote, and sell your NFTs.</h2>
-</div>
-</div>
-
-
-<div class="pt-40 px-1 sm:px-52 flex flex-row"> 
-	<div> 
-	  <h1 class="text-6xl cooper brick-pink font-extrabold p-10 px-10 sm:px-20">CREATE SMART NFT’S</h1>
-      <h2 class="text-2xl montserrat px-0 ml-20 sm:ml-0 sm:px-20">Only the Vatom platform enables next-generation ‘Smart NFTs”, programmable digital objects that you can see,
-		 collect, trade, and redeem in both the real and digital worlds.</h2>
-	</div>
-    <div>
-	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_bmbkcawq.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop autoplay></lottie-player>
-</div>
-</div>
-
-
-<div class="mt-40 px-0 sm:px-52 flex flex-row"> 
-
-
-	<div class="text-center px-1 sm:px-10"> 
-		<h1 class="text-6xl cooper brick-pink font-extrabold p-5 sm:p-10">CREATE YOUR VIRTUAL SPACE</h1>
-		<h2 class="text-2xl montserrat px-10 pb-10">Choose from a selection of prefab spaces or easily create your own!</h2>
-		<button type="button" class="text-white m-auto sm:ml-10 space-cadet hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-			LEARN MORE
-			<svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-		</button>
+	<div class="w-full sm:w-full mt-20 sm:mt-20"> 
+		<h1 class="text-1xl font-medium mb-5"><b>Editions Fabric</b></h1>
+		<p class="text-1xl montserrat">Connecting the marketplace with the web, letting users interact with NFTs at ease. 
+		</p>
 	</div>
 
-	<!-- <div class="mt-6"> 
-		<img alt="" src={Mobile} />
-
-	</div> -->
-
-</div>
-
-
-<div class="mt-40 px-1 sm:px-52 mb-20"> 
-	<div>
-		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-		<lottie-player class="m-auto w-full sm:w-96" src="https://assets10.lottiefiles.com/packages/lf20_mj9xns8a.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
-</div>
-
-<div class="flex flex-col sm:flex-row justify-around"> 
-	<div> 
-		<h1 class="text-6xl cooper brick-pink font-extrabold p-10 px-12 ">PROMOTE, SHARE & SELL NFTS
-		</h1>
+	<div class="w-full sm:w-full mt-20 sm:mt-20"> 
+		<h1 class="text-1xl font-medium mb-5"><b>Editions app</b></h1>
+		<p class="text-1xl montserrat">Mobile app to use digital assets irl and access the marketplace on the go.
+		</p>
 	</div>
 
-	<div class="mt-12 px-24"> 
-		<h2 class="text-2xl montserrat  pb-10">To help you promote, share, and sell your NFTs the Vatom platform allows you to easily
-			 display your NFTs within your Metaverse space, drop-them in the real-world, or display in your very own marketplace.</h2>
-		<button type="button" class="text-white space-cadet hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-			START NOW
-			<svg aria-hidden="true" class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-		</button>
+	<div class="w-full sm:w-full mt-20 sm:mt-20">
+		<h1 class="text-1xl font-medium mb-5"><b>Editions extensions</b></h1> 
+		<p class="text-1xl montserrat">Enabling content creators on different platforms to start using Editions without any technical skills.
+		</p>
 	</div>
 
 </div>
 </div>
+
+
+<div class="px-10 sm:px-52 pt-32">
+	<h1 class="cooper text-6xl brick-pink font-extrabold mb-5">Our Mission</h1>
+	<p class="text-2xl mb-16 montserrat">To empower content creators to focus on creating. To empower users to discover artists and digital assets they care about. To empower businesses to discover and be discovered. </p>
+<div class="flex flex-col sm:flex-row gap-0 sm:gap-32 "> 
+
+	<img class="w-72 h-64" alt="" src={Pic3} />
+	<img class="w-72 h-64" alt="" src={Pic4} />
+	<img class="w-72 h-64" alt="" src={Pic5} />
+
+</div>
+</div>
+
+<div class="px-10 sm:px-52 pt-32">
+	<h1 class="cooper text-6xl font-extrabold brick-pink mb-5">Why Blockchain?</h1>
+	<p class="text-2xl mb-16 montserrat">Blockchain allows creators, users, and artists to interact without intermediaries. 
+		It provides unprecedented levels of transparency in otherwise untransparent processes and efficiently distributes and allocates funds across borders.
+		 It empowers users to own their digital assets and identities truly.
+		 It’s the perfect technology to make our mission become reality.  </p>
+
+</div>
+
+<div class="px-10 sm:px-52 pt-32 mb-20">
+	<h1 class="cooper text-6xl brick-pink font-extrabold mb-5">Get in touch</h1>
+	<p class="text-2xl mb-16 montserrat">We’ll get back to you as soon as our founder has figured out how to use email.</p>
+
+
+<form>
+	<div class="mb-6">
+	  <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your name</label>
+	  <input type="text" bind:this={name} id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
+	</div>
+	<div class="mb-6">
+		<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+		<input type="email" bind:this={email} id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@xyz.com" required="">
+	  </div>
+	<div class="mb-6">
+	  <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your message</label>
+	  <textarea  id="message" bind:this={message} class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-pink-500 focus:border-pink-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required=""></textarea>
+	</div>
+	
+	<a href="mailto:someone@yoursite.com?subject=Mail from Our Site&body=Body-goes-here" alt=""><button type="submit" class="text-white bg-pink-600 hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button></a>
+  </form>
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -168,6 +159,11 @@
   }
   .montserrat {
 	font-family: 'Montserrat', sans-serif;
+  }
+
+  .montserrat-bold {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
   }
 
   .brick-pink {

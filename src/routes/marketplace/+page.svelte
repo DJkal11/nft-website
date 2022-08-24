@@ -1,67 +1,64 @@
 <script> 
-
+import Pic6 from "../../lib/header/pic6.png";
 </script>
 
 <div> 
     <div class="intro h-full sm:h-screen  px-10 sm:px-52 pt-20 sm:pt-40 flex flex-col sm:flex-row gap-10">
-        <div>
-        <h1 class="text-white cooper text-6xl font-extrabold mb-10">DISCOVER, BUY, SELL, SHARE, & SHOW-OFF YOUR NFTS</h1>
-        <p class="text-white montserrat text-2xl font-normal">Ready to show the world what you can do with NFTs. Here’s the place to do it. The Vatom Marketplace enables you to easily list and sell your NFTs.
+        <div class="w-11/12">
+        <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">NFTs are here to stay, but how we use them will change. </h1>
+        <p class=" montserrat-bold text-2xl font-normal">In the future, they can be anything digital:
             </p>
-            <button class="bg-white hover:bg-black hover:text-white brick-pink font-bold py-4 px-6 rounded-full transition-colors mt-10">GO TO MARKETPLACE</button>
+            <ul class="montserrat mt-10 grid grid-cols-2 mb-10 gap-5"> 
+                <li class="mb-2 text-xl ">tickets</li>
+                <li class="mb-2 text-xl">art</li>
+                <li class="mb-2 text-xl">certifications</li>
+                <li class="mb-2 text-xl">id</li>
+                <li class="mb-2 text-xl">metaverse fashion</li>
+
+            </ul>
+            <p class=" montserrat text-2xl font-normal">The only limit is your imagination.
+            </p>
         </div>
-        <div class=""> 
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player class="w-full sm:w-96" src="https://assets6.lottiefiles.com/packages/lf20_838ilk1b.json"  background="transparent"  speed="1"    loop autoplay></lottie-player>
+
+        <div class="w-8/12"> 
+            <img alt="" class="w-full sm:w-full" src={Pic6} />
         </div>  
     </div>
 
-    <div class="flex flex-col sm:flex-row gap-14 sm:gap-32 px-10 sm:px-52 pt-14 sm:pt-32 section-2"> 
+    <div class="px-10 sm:px-52 pt-14 sm:pt-32 mb-20">
+        <h1 class="brick-pink cooper text-6xl font-extrabold mb-5">Discover great NFTs with Editions</h1>
+        <h2 class="text-2xl montserrat">Editions is a holistic platform enhancing NFT discovery while empowering creators. Here’s how. </h2>
+    <div class="flex flex-col sm:flex-row gap-14 sm:gap-32 section-2"> 
         <div class="w-full mt-20"> 
-            <h1 class="text-4xl cooper brick-pink font-extrabold mb-10">EASILY DISPLAY
-                NFTS IN YOUR VIRTUAL SPACE</h1>
-            <p class="text-1xl montserrat">We’ve made dropping NFTs
-                into your Virtual Spaces the definition of simple.</p>
-                 <br />
-            <p class="text-1xl montserrat">In your wallet select the NFT, then from the options menu “Drop”.
-
-            </p>
-        
+          <h1 class="font-bold text-1xl mb-3">Creators</h1>
+          <ul class="montserrat"> 
+            <li class="mb-2">curate NFTs they want to display </li>
+            <li class="mb-2">earn a direct share whenever an NFT is purchased on their site </li>
+            <li class="mb-2">control, transparency, and higher revenue than any ad network </li>
+          </ul>
         </div>
 
-        <div class=" rounded-full"> 
-            <img class="w-full rounded-full" alt="nft" src="https://images.unsplash.com/photo-1502185372788-6ff455aa92ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
-        </div>
+        <div class="w-full mt-20"> 
+            <h1 class="font-bold text-1xl mb-3">Users</h1>
+            <ul class="montserrat"> 
+              <li class="mb-2">discover great NFTs from the creators they love</li>
+              <li class="mb-2">support their favorite artists </li>
+              <li class="mb-2">giving back and receiving revenue from using Editions</li>
+            </ul>
+          </div>
+
+          <div class="w-full mt-20"> 
+            <h1 class="font-bold text-1xl mb-3">CArtists, DAOs </h1>
+            <ul class="montserrat"> 
+              <li class="mb-2">enhance their reach and discovery of their NFTs </li>
+              <li class="mb-2">engage with holders in more meaningful ways </li>
+              <li class="mb-2">align with Editions value and social impact causes.</li>
+            </ul>
+          </div>
 
     </div>
 
-    <div class="flex flex-col sm:flex-row gap-0 sm:gap-32 px-10 sm:px-52 pt-32 section-3"> 
-        <div class=" "> 
-            <img class="w-full rounded-full" alt="phone" src="https://images.unsplash.com/photo-1565849904461-04a58ad377e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1036&q=80" />
-        </div>
-
-        <div class="w-full sm:w-9/12 mt-20 sm:mt-40"> 
-            <h1 class="text-4xl cooper brick-pink font-extrabold mb-10">OR DROP THEM INTO THE REAL WORLD</h1>
-            <p class="text-1xl montserrat">The Vatom platform allows you to easily drop your NFTs
-                into the real-world to find,
-                collect, and share.
-            </p>
-                 <br />
-            <p class="text-1xl montserrat">Using the AR tool on your mobile device share, discover, and collect NFTs anywhere!
-            </p>
-                
-        </div>
-
-    </div>
-
-    <div class="px-10 sm:px-52 pt-32 text-center mb-20"> 
-        <h1 class="text-6xl cooper text-center font-extrabold">DISCOVER, BUY, SELL, SHARE, & SHOW-OFF
-            <br /><span class="brick-pink">YOUR NFTS</span></h1>
-            <button class="brick-pink-bg hover:bg-black hover:text-white text-white font-extrabold py-4 px-6 rounded-full transition-colors mt-10 ">GO TO MARKETPLACE</button>
-
-
-    </div>
-
+</div>
 
 </div>
 
@@ -78,10 +75,12 @@
   .montserrat {
 	font-family: 'Montserrat', sans-serif;
   }
-.intro {
- background-image: url("https://images.unsplash.com/photo-1548504778-b14db6c34b04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80");
- background-size: cover;
-}
+
+  .montserrat-bold {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+  }
+
 
 .brick-pink {
 	color: #E85D75;
