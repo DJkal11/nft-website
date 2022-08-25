@@ -46,7 +46,7 @@
 			<a href="/FAQ" on:click={() => tab = "faq"} class="block py-2 pr-4 pl-3 text-gray-700 rounded md:p-0">FAQ</a>
 		  </li>
 		  <li class="{tab === "contact" ? 'border-blue-500 border-b-2 pr-1 transition-all' : 'border-blue-500 hover:border-b-2 transition-all'}">
-			<a href="/" on:click={() => tab = "contact"} class="block py-2 pr-4 pl-3 text-gray-700 rounded md:p-0">CONTACT</a>
+			<a href="/contact" on:click={() => tab = "contact"} class="block py-2 pr-4 pl-3 text-gray-700 rounded md:p-0">CONTACT</a>
 		  </li>
 		  
 		</ul>

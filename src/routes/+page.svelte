@@ -2,8 +2,6 @@
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/flowbite@1.5.2/dist/flowbite.min.js"></script>
     <link href="https://www.dafontfree.net/embed/Y29vcGVyLWhld2l0dC1ib29rJmRhdGEvMTYvYy83ODAwMy9Db29wZXJIZXdpdHQtQm9vay5vdGY" rel="stylesheet" type="text/css"/>
 </svelte:head>
@@ -13,19 +11,14 @@
 	import Pic3 from "../lib/header/pic3.png";
 	import Pic4 from "../lib/header/pic4.png";
 	import Pic5 from "../lib/header/pic5.webp";
-	import { fade, fly } from 'svelte/transition';
+	
 
 	let name = "";
 	let email = "";
 	let message = "";
 
-
-
-
- 
-
-
-
+	let element;
+    let intersecting;  
 
 
 
@@ -34,32 +27,32 @@
 
 
 
-<section class="">
+<section  class="container-box">
 	<!-- <div style="left: {m.x}px; top: {m.y}px;" class="inner-cursor"></div>
 	<div style="left: {m.x}px; top: {m.y}px;" class="outer-cursor"></div>	 -->
-	<section class="">
-	<div class="intro h-full sm:h-screen  px-10 sm:px-52 pt-20 sm:pt-40 sm:flex-row">
+	<section class="item ">
+	<div class="intro h-full sm:h-screen  px-10 sm:px-52 pt-20 sm:pt-24 sm:flex-row">
         <div class="w-full text-center m-auto p-10 h-4/6 ">
-        <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">Step into the future of the digital economy</h1>
+        <h1 class=" cooper brick-pink text-8xl font-extrabold mb-10">Step into the future of the digital economy</h1>
         <p class=" text-white montserrat text-3xl font-extrabold bg-black bg-opacity-20 backdrop-blur-sm rounded drop-shadow-lg">At Friend A Labs, we’re building blockchain-based tech to empower.
             </p>
-            <a alt="" href="/about"><button class=" border-blue-600 border-2 hover:bg-blue-600 hover:translate-y-3 hover:text-white text-white font-bold py-4 px-6 rounded-full transition-all mt-10">Learn More</button></a>
+            <a alt="" href="/about"><button class="bg-black bg-opacity-20 backdrop-blur-sm rounded drop-shadow-lg border-blue-600 border-2 hover:bg-blue-600 hover:translate-y-3 hover:text-white text-white font-bold py-4 px-6 rounded-full transition-all mt-10">Learn More</button></a>
         </div>
         <div class="w-6/12"> 
         </div>  
     </div>
 </section>
-<section  class="">
+<section  class="item">
     <div class="px-10 sm:px-52 pb-28 move">
 		<h1 class="cooper brick-pink text-6xl font-extrabold pt-28 mb-16">Our Products</h1>
 		
 	<div class="flex flex-col sm:flex-row gap-0 sm:gap-32 "> 
 		
-        <div in:fly={{ y: -50, duration: 250, delay: 300 }}
-		out:fly={{ y: -50, duration: 250 }} class="" > 
-            <img   class="w-10/12" alt="phone" src={Pic2} />
+		
+        <div  class="{intersecting? 'fadeInRight' : ''}" > 
+            <img  class="w-10/12" alt="phone" src={Pic2} />
         </div>
-	
+	   
 
         <div class="w-full sm:w-9/12 mt-20 sm:mt-28"> 
             <p class="text-2xl montserrat">Our first product, Editions, enhances the discovery of NFTs and changes the financial incentives of the attention economy to empower creators to focus on creating.
@@ -70,6 +63,7 @@
 </div>
 </section>
 
+<section class="item"> 
 <div class="px-10 sm:px-52 pt-32 pb-20 section-2">
 	<h1 class="cooper brick-pink text-6xl font-extrabold ">Editions</h1>
 
@@ -132,8 +126,9 @@
 
 
 </div>
+</section>
 
-
+<section class="item">
 <div class="px-10 sm:px-52 pt-32 mb-28">
 	<h1 class="cooper text-6xl brick-pink font-extrabold mb-5">Our Mission</h1>
 	<p class="text-2xl mb-16 montserrat">To empower content creators to focus on creating.<br/><br/> To empower users to discover artists and digital assets they care about.<br/><br/> To empower businesses to discover and be discovered. </p>
@@ -151,7 +146,10 @@
 
 </div>
 </div>
+</section>
 
+
+<section class="item">
 <div class="px-10 sm:px-52 pt-32 pb-20 section-2">
 	<h1 class="cooper text-6xl font-extrabold brick-pink mb-5">Why Blockchain?</h1>
 	<p class="text-2xl text-white mb-16 montserrat">Blockchain allows creators, users, and artists to interact without intermediaries.<br /><br/>
@@ -160,7 +158,9 @@
 		 It’s the perfect technology to make our mission become reality.  </p>
 
 </div>
+</section>
 
+<section class="item">
 <div class="px-10 sm:px-52 pt-32 mb-20">
 	<h1 class="cooper text-6xl brick-pink font-extrabold mb-5">Get in touch</h1>
 	<p class="text-1xl mb-16 montserrat">We’ll get back to you as soon as our founder has figured out how to use email.</p>
@@ -185,14 +185,27 @@
   
 
 </div>
-
+</section>
 	
 </section>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/* .container-box {
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	height: 100vh;
+	width: 100vw;
+	
+}
 
+.item {
+	scroll-snap-align: start;
+	width: 100vw !important;
+	height: 100vh;
+	
+} */
 
   .cooper {
 	font-family: 'cooper-hewitt-book', sans-serif;
@@ -217,7 +230,38 @@
 	color: #E85D75;
   }
 
-	
+  .fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInRight {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInRight {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 	
 	
 
 
