@@ -9,21 +9,23 @@
 </svelte:head>
 
 <script  context="module" lang="js">
-	import { gsap } from "gsap";
-    import { ScrollTrigger } from "gsap/dist/ScrollTrigger.js";
 	import Pic2 from "../lib/header/Pic2.png";
 	import Pic3 from "../lib/header/pic3.png";
 	import Pic4 from "../lib/header/pic4.png";
 	import Pic5 from "../lib/header/pic5.webp";
+	import { fade, fly } from 'svelte/transition';
 
 	let name = "";
 	let email = "";
 	let message = "";
-	let move;
 
-	gsap.registerPlugin(ScrollTrigger);
 
-    
+
+
+ 
+
+
+
 
 
 
@@ -35,11 +37,11 @@
 <section class="">
 	<!-- <div style="left: {m.x}px; top: {m.y}px;" class="inner-cursor"></div>
 	<div style="left: {m.x}px; top: {m.y}px;" class="outer-cursor"></div>	 -->
-	<section bind:this={move} class="move">
+	<section class="">
 	<div class="intro h-full sm:h-screen  px-10 sm:px-52 pt-20 sm:pt-40 sm:flex-row">
         <div class="w-full text-center m-auto p-10 h-4/6 ">
         <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">Step into the future of the digital economy</h1>
-        <p class=" text-white montserrat text-3xl font-extrabold bg-white bg-opacity-20 backdrop-blur-sm rounded drop-shadow-lg">At Friend A Labs, we’re building blockchain-based tech to empower.
+        <p class=" text-white montserrat text-3xl font-extrabold bg-black bg-opacity-20 backdrop-blur-sm rounded drop-shadow-lg">At Friend A Labs, we’re building blockchain-based tech to empower.
             </p>
             <a alt="" href="/about"><button class=" border-blue-600 border-2 hover:bg-blue-600 hover:translate-y-3 hover:text-white text-white font-bold py-4 px-6 rounded-full transition-all mt-10">Learn More</button></a>
         </div>
@@ -47,14 +49,17 @@
         </div>  
     </div>
 </section>
-<section bind:this={move} class="move">
+<section  class="">
     <div class="px-10 sm:px-52 pb-28 move">
 		<h1 class="cooper brick-pink text-6xl font-extrabold pt-28 mb-16">Our Products</h1>
 		
 	<div class="flex flex-col sm:flex-row gap-0 sm:gap-32 "> 
-        <div class=" "> 
-            <img class="w-10/12" alt="phone" src={Pic2} />
+		
+        <div in:fly={{ y: -50, duration: 250, delay: 300 }}
+		out:fly={{ y: -50, duration: 250 }} class="" > 
+            <img   class="w-10/12" alt="phone" src={Pic2} />
         </div>
+	
 
         <div class="w-full sm:w-9/12 mt-20 sm:mt-28"> 
             <p class="text-2xl montserrat">Our first product, Editions, enhances the discovery of NFTs and changes the financial incentives of the attention economy to empower creators to focus on creating.
@@ -206,7 +211,7 @@
   .section-2 {
 	background-color: #34344A;
   }
-  
+
 
   .brick-pink {
 	color: #E85D75;

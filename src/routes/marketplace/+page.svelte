@@ -8,26 +8,24 @@ import Pic6 from "../../lib/header/pic6.png";
 </svelte:head>
 
 <div> 
-    <div class="intro h-full sm:h-screen  px-10 sm:px-52 pt-20 sm:pt-40 flex flex-col sm:flex-row gap-10">
-        <div class="w-11/12">
+    <div class="intro h-full sm:h-screen px-10 sm:px-52 pt-20 sm:pt-32 gap-10">
+        <div class="w-full text-center bg-black bg-opacity-20 backdrop-blur-sm rounded drop-shadow-lg p-10">
         <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">NFTs are here to stay, but how we use them will change. </h1>
-        <p class=" montserrat-bold text-2xl font-normal">In the future, they can be anything digital:
+        <p class=" text-white montserrat-bold text-2xl font-normal">In the future, they can be anything digital:
             </p>
-            <ul class="montserrat mt-10 grid grid-cols-2 mb-10 gap-5"> 
-                <li class="mb-2 text-xl ">tickets</li>
-                <li class="mb-2 text-xl">art</li>
-                <li class="mb-2 text-xl">certifications</li>
-                <li class="mb-2 text-xl">id</li>
-                <li class="mb-2 text-xl">metaverse fashion</li>
+            <ul class="montserrat text-white mt-10 w-96 m-auto grid grid-cols-2 mb-10 gap-5"> 
+                <li class="mb-2 text-xl ">Tickets</li>
+                <li class="mb-2 text-xl">Art</li>
+                <li class="mb-2 text-xl">Certifications</li>
+                <li class="mb-2 text-xl">ID</li>
+                <li class="mb-2 text-xl">Metaverse Fashion</li>
 
             </ul>
-            <p class=" montserrat text-2xl font-normal">The only limit is your imagination.
+            <p class="text-white montserrat text-2xl font-normal">The only limit is your imagination.
             </p>
         </div>
 
-        <div class="w-8/12"> 
-            <img alt="" class="w-full sm:w-full" src={Pic6} />
-        </div>  
+        
     </div>
 
     <div class="px-10 sm:px-52 pt-14 sm:pt-32 mb-20">
@@ -71,7 +69,10 @@ import Pic6 from "../../lib/header/pic6.png";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-
+.intro {
+	background: url("../../lib/header/pic6.png");
+	background-size: cover;
+  }
   .cooper {
     font-family: 'cooper-hewitt-book', sans-serif;
   }
