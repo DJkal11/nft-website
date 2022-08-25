@@ -16,17 +16,17 @@
 
 
 	
-<footer class="p-8 overflow-hidden bg-gray-700 text-white  shadow  dark:bg-gray-900">
+<footer class="p-8 overflow-hidden cadet text-white  shadow  dark:bg-gray-900">
     <div class="sm:flex sm:items-center sm:justify-between">
         <a href="/" class="flex items-center justify-center mb-4 sm:mb-0">
-            <img src={Logo} class="mr-3 h-8" alt="Logo">
+            <img src={Logo} class="mr-3 w-7 h-8" alt="Logo">
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Friend A Labs</span>
         </a>
-        <span class="block text-sm text-white text-center dark:text-gray-400">Copyright 2022 Editions | Made with 💙 by FriendALabs
+        <span class="block text-sm text-white text-center dark:text-gray-400">Copyright 2022 Editions | Made with 💙 by Friend A Labs
         </span>
         <ul class="flex flex-wrap items-center justify-center mb-6 text-sm text-white sm:mb-0 dark:text-gray-400">
             <li class="pr-5">
-                <a alt="" href="">
+                <a alt="" href="https://twitter.com/FriendALabs">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
@@ -42,41 +42,10 @@
                     >
                 </a>
             </li>
-            <li class="pr-5">
-                <a alt="" href="">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        x="0px"
-                        y="0px"
-                        width="18"
-                        height="18"
-                        viewBox="0 0 26 26"
-                        style=" fill:white;"
-                        ><path
-                            d="M 7.546875 0 C 3.390625 0 0 3.390625 0 7.546875 L 0 18.453125 C 0 22.609375 3.390625 26 7.546875 26 L 18.453125 26 C 22.609375 26 26 22.609375 26 18.453125 L 26 7.546875 C 26 3.390625 22.609375 0 18.453125 0 Z M 7.546875 2 L 18.453125 2 C 21.527344 2 24 4.46875 24 7.546875 L 24 18.453125 C 24 21.527344 21.53125 24 18.453125 24 L 7.546875 24 C 4.472656 24 2 21.53125 2 18.453125 L 2 7.546875 C 2 4.472656 4.46875 2 7.546875 2 Z M 20.5 4 C 19.671875 4 19 4.671875 19 5.5 C 19 6.328125 19.671875 7 20.5 7 C 21.328125 7 22 6.328125 22 5.5 C 22 4.671875 21.328125 4 20.5 4 Z M 13 6 C 9.144531 6 6 9.144531 6 13 C 6 16.855469 9.144531 20 13 20 C 16.855469 20 20 16.855469 20 13 C 20 9.144531 16.855469 6 13 6 Z M 13 8 C 15.773438 8 18 10.226563 18 13 C 18 15.773438 15.773438 18 13 18 C 10.226563 18 8 15.773438 8 13 C 8 10.226563 10.226563 8 13 8 Z"
-                        /></svg
-                    >
-                </a>
-            </li>
+           
             <li class="pr-5"> 
-                <a alt="" href="">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        x="0px"
-                        y="0px"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 30 30"
-                        style=" fill:white;"
-                    >
-                        <path
-                            d="M12,27V15H8v-4h4V8.852C12,4.785,13.981,3,17.361,3c1.619,0,2.475,0.12,2.88,0.175V7h-2.305C16.501,7,16,7.757,16,9.291V11 h4.205l-0.571,4H16v12H12z"
-                        /></svg
-                    >
-                </a>
-            </li>
-            <li class="pr-5"> 
-                <a alt="" href=""> 
+                <a alt="" href="https://medium.com/friendalabs
+                "> 
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                         width="25" height="25"
                         viewBox="0 0 72 72"
@@ -106,7 +75,9 @@
         overflow: hidden;
         
 	}
-
+    .cadet {
+	background-color: #4A6573;
+  }
     
 	
 </style>

@@ -1,5 +1,5 @@
 <script> 
-import Pic6 from "../../lib/header/pic6.png";
+import Star from "../../lib/header/stars.png";
 </script>
 
 <svelte:head>
@@ -9,18 +9,11 @@ import Pic6 from "../../lib/header/pic6.png";
 
 <div> 
     <div class="intro h-full sm:h-screen px-10 sm:px-52 pt-20 sm:pt-32 gap-10">
-        <div class="w-full text-center bg-black bg-opacity-20 backdrop-blur-sm rounded drop-shadow-lg p-10">
+        <div class="w-full text-center mt-36">
         <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">NFTs are here to stay, but how we use them will change. </h1>
-        <p class=" text-white montserrat-bold text-2xl font-normal">In the future, they can be anything digital:
+        <p class=" text-white montserrat-bold text-2xl font-normal">In the future, they can be anything digital.
             </p>
-            <ul class="montserrat text-white mt-10 w-96 m-auto grid grid-cols-2 mb-10 gap-5"> 
-                <li class="mb-2 text-xl ">Tickets</li>
-                <li class="mb-2 text-xl">Art</li>
-                <li class="mb-2 text-xl">Certifications</li>
-                <li class="mb-2 text-xl">ID</li>
-                <li class="mb-2 text-xl">Metaverse Fashion</li>
-
-            </ul>
+           
             <p class="text-white montserrat text-2xl font-normal">The only limit is your imagination.
             </p>
         </div>
@@ -30,10 +23,10 @@ import Pic6 from "../../lib/header/pic6.png";
 
     <div class="px-10 sm:px-52 pt-14 sm:pt-32 mb-20">
         <h1 class="brick-pink cooper text-6xl font-extrabold mb-5">Discover great NFTs with Editions</h1>
-        <h2 class="text-2xl montserrat">Editions is a holistic platform enhancing NFT discovery while empowering creators. Here’s how. </h2>
+        <h2 class="text-2xl montserrat">Editions is a holistic platform enhancing NFT discovery while empowering creators.</h2>
     <div class="flex flex-col sm:flex-row gap-14 sm:gap-32 section-2"> 
         <div class="w-full mt-20"> 
-          <h1 class="font-bold text-1xl mb-3">Creators</h1>
+          <h1 class="font-bold brick-pink text-1xl mb-3">Creators</h1>
           <ul class="montserrat"> 
             <li class="mb-2">curate NFTs they want to display </li>
             <li class="mb-2">earn a direct share whenever an NFT is purchased on their site </li>
@@ -42,7 +35,7 @@ import Pic6 from "../../lib/header/pic6.png";
         </div>
 
         <div class="w-full mt-20"> 
-            <h1 class="font-bold text-1xl mb-3">Users</h1>
+            <h1 class="font-bold brick-pink text-1xl mb-3">Users</h1>
             <ul class="montserrat"> 
               <li class="mb-2">discover great NFTs from the creators they love</li>
               <li class="mb-2">support their favorite artists </li>
@@ -51,7 +44,7 @@ import Pic6 from "../../lib/header/pic6.png";
           </div>
 
           <div class="w-full mt-20"> 
-            <h1 class="font-bold text-1xl mb-3">CArtists, DAOs </h1>
+            <h1 class="font-bold brick-pink text-1xl mb-3">Artists, DAOs </h1>
             <ul class="montserrat"> 
               <li class="mb-2">enhance their reach and discovery of their NFTs </li>
               <li class="mb-2">engage with holders in more meaningful ways </li>
@@ -70,7 +63,7 @@ import Pic6 from "../../lib/header/pic6.png";
 
 
 .intro {
-	background: url("../../lib/header/pic6.png");
+	background: url("../../lib/header/stars.png");
 	background-size: cover;
   }
   .cooper {
@@ -87,7 +80,7 @@ import Pic6 from "../../lib/header/pic6.png";
 
 
 .brick-pink {
-	color: #E85D75;
+	color: #CC6354;
   }
 
 
