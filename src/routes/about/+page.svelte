@@ -6,14 +6,14 @@ import Nirbhik from "../../lib/header/Nirbhik.jpg";
 </script>
 
 <svelte:head>
-	<title>nft</title>
-
+	<title>About</title>
+    <link href="https://www.dafontfree.net/embed/Y29vcGVyLWhld2l0dC1ib29rJmRhdGEvMTYvYy83ODAwMy9Db29wZXJIZXdpdHQtQm9vay5vdGY" rel="stylesheet" type="text/css"/>
 </svelte:head>
 
 <div class="scroll-smooth"> 
     <div class="intro h-full sm:h-screen bg-fixed p-14 sm:p-52 flex flex-col sm:flex-row gap-20">
         <div>
-        <h1 class="text-white  text-6xl font-extrabold mb-10">Mission</h1>
+        <h1 class="text-white cooper text-6xl font-extrabold mb-10">Mission</h1>
         <p class="text-white montserrat text-2xl font-normal">To empower content creators, create the non-fungible web where creators, users, and businesses are in control.
 
             Everyone should be able to participate meaningfully in the creator economy. We make it happen.
@@ -123,7 +123,7 @@ import Nirbhik from "../../lib/header/Nirbhik.jpg";
     </div>
 
     <div class="px-10 sm:px-52 pt-32"> 
-        <h1 class="brick-pink text-6xl font-extrabold mb-10">Our awesome advisors</h1>
+        <h1 class="brick-pink cooper text-6xl font-extrabold mb-10">Our awesome advisors</h1>
 
         <div class="grid grid-cols-3 mt-20 gap-14 pb-20">
             <div class=" "> 
@@ -159,7 +159,7 @@ import Nirbhik from "../../lib/header/Nirbhik.jpg";
     </div>
 
     <div class="px-10 sm:px-52 pt-32 pb-10 intro"> 
-        <h1 class="text-white  text-6xl font-extrabold mb-10">Manifesto</h1>
+        <h1 class="text-white cooper  text-6xl font-extrabold mb-10">Manifesto</h1>
         <p class="text-2xl mb-16 montserrat text-white">We are passionate supporters of content creators.<br /><br/>
             We root for all the artists trying to make it in the digital world.<br/><br/>
             We empathize with all the users getting annoyed at all the popups and being followed wherever they go.<br/><br/>
@@ -178,11 +178,10 @@ import Nirbhik from "../../lib/header/Nirbhik.jpg";
 
 <style> 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('http://fonts.cdnfonts.com/css/cooper-hewitt-book');
 
 
   .cooper {
-	font-family: 'Cooper Hewitt Bold', sans-serif;
+	font-family: 'cooper-hewitt-book', sans-serif;
   }
   .montserrat {
 	font-family: 'Montserrat', sans-serif;

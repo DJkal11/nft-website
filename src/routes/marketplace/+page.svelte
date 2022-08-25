@@ -2,6 +2,11 @@
 import Pic6 from "../../lib/header/pic6.png";
 </script>
 
+<svelte:head>
+	<title>Products</title>
+    <link href="https://www.dafontfree.net/embed/Y29vcGVyLWhld2l0dC1ib29rJmRhdGEvMTYvYy83ODAwMy9Db29wZXJIZXdpdHQtQm9vay5vdGY" rel="stylesheet" type="text/css"/>
+</svelte:head>
+
 <div> 
     <div class="intro h-full sm:h-screen  px-10 sm:px-52 pt-20 sm:pt-40 flex flex-col sm:flex-row gap-10">
         <div class="w-11/12">
@@ -64,11 +69,11 @@ import Pic6 from "../../lib/header/pic6.png";
 
 <style> 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('http://fonts.cdnfonts.com/css/cooper-hewitt-book');
+
 
 
   .cooper {
-	font-family: 'Cooper Hewitt Bold', sans-serif;
+    font-family: 'cooper-hewitt-book', sans-serif;
   }
   .montserrat {
 	font-family: 'Montserrat', sans-serif;

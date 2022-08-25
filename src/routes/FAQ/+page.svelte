@@ -2,6 +2,11 @@
 
 </script>
 
+<svelte:head>
+	<title>FAQ</title>
+    <link href="https://www.dafontfree.net/embed/Y29vcGVyLWhld2l0dC1ib29rJmRhdGEvMTYvYy83ODAwMy9Db29wZXJIZXdpdHQtQm9vay5vdGY" rel="stylesheet" type="text/css"/>
+</svelte:head>
+
 <div> 
     <div class="intro h-full   px-10 sm:px-52 pt-20 sm:pt-20"> 
         <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">General</h1>
@@ -74,10 +79,10 @@
 
 <style> 
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-    @import url('http://fonts.cdnfonts.com/css/cooper-hewitt-book');
+    
     
       .cooper {
-        font-family: 'Cooper Hewitt Bold', sans-serif;
+        font-family: 'cooper-hewitt-book', sans-serif;
       }
       .montserrat {
         font-family: 'Montserrat', sans-serif;

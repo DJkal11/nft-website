@@ -1,4 +1,16 @@
+
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="Svelte demo app" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/flowbite@1.5.2/dist/flowbite.min.js"></script>
+    <link href="https://www.dafontfree.net/embed/Y29vcGVyLWhld2l0dC1ib29rJmRhdGEvMTYvYy83ODAwMy9Db29wZXJIZXdpdHQtQm9vay5vdGY" rel="stylesheet" type="text/css"/>
+</svelte:head>
+
 <script  context="module" lang="js">
+	import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/dist/ScrollTrigger.js";
 	import Pic2 from "../lib/header/Pic2.png";
 	import Pic3 from "../lib/header/pic3.png";
 	import Pic4 from "../lib/header/pic4.png";
@@ -7,21 +19,24 @@
 	let name = "";
 	let email = "";
 	let message = "";
-	
+	let move;
+
+	gsap.registerPlugin(ScrollTrigger);
+
+    
+
+
+
 	</script>
 
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-	<script src="https://cdn.jsdelivr.net/npm/flowbite@1.5.2/dist/flowbite.min.js"></script>
 
-</svelte:head>
 
 <section class="">
 	<!-- <div style="left: {m.x}px; top: {m.y}px;" class="inner-cursor"></div>
 	<div style="left: {m.x}px; top: {m.y}px;" class="outer-cursor"></div>	 -->
-	<div class="intro h-full sm:h-screen  px-10 sm:px-52 pt-20 sm:pt-40 sm:flex-row ">
+	<section bind:this={move} class="move">
+	<div class="intro h-full sm:h-screen  px-10 sm:px-52 pt-20 sm:pt-40 sm:flex-row">
         <div class="w-full text-center m-auto p-10 h-4/6 ">
         <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">Step into the future of the digital economy</h1>
         <p class=" text-white montserrat text-3xl font-extrabold bg-white bg-opacity-20 backdrop-blur-sm rounded drop-shadow-lg">At Friend A Labs, we’re building blockchain-based tech to empower.
@@ -31,9 +46,9 @@
         <div class="w-6/12"> 
         </div>  
     </div>
-
-
-    <div class="px-10 sm:px-52 pb-28">
+</section>
+<section bind:this={move} class="move">
+    <div class="px-10 sm:px-52 pb-28 move">
 		<h1 class="cooper brick-pink text-6xl font-extrabold pt-28 mb-16">Our Products</h1>
 		
 	<div class="flex flex-col sm:flex-row gap-0 sm:gap-32 "> 
@@ -48,6 +63,7 @@
 
     </div>
 </div>
+</section>
 
 <div class="px-10 sm:px-52 pt-32 pb-20 section-2">
 	<h1 class="cooper brick-pink text-6xl font-extrabold ">Editions</h1>
@@ -170,12 +186,14 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('http://fonts.cdnfonts.com/css/cooper-hewitt-book');
+
 
 
   .cooper {
-	font-family: 'Cooper Hewitt Bold', sans-serif;
+	font-family: 'cooper-hewitt-book', sans-serif;
   }
+
+  
   .montserrat {
 	font-family: 'Montserrat', sans-serif;
   }
