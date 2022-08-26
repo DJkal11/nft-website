@@ -141,7 +141,7 @@ import Lucian from "../../lib/header/Lucian.jpg"
                 <img class="w-52 shadow-2xl rounded-lg" alt="" src="https://images-ext-1.discordapp.net/external/AImo8DyAk0lv8jrbUs-QdGy19U93mA08_agIANvFZEs/https/hudsonjameson.com/img/avatar-icon.jpg" />
                 <h1 class="font-bold text-2xl mb-5 brick-pink mt-7">Hudson Jameson</h1>
                 <ul class="space-cadet font-bold"> 
-                    <li>Ethereum core developer liaision, co-founder Oaken Innovations , 
+                    <li>Ethereum core developer liaision, co-founder Flashbots Innovations , 
                         committee member of Zcash Open Major Grants, previously  Ethereum Foundation</li>
                 </ul>
             </div> -->
