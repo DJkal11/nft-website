@@ -2,7 +2,7 @@
     import { page } from '$app/stores'
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
-	import Logo from "../lib/header/LOGO3.svg";
+	import Logo from "../lib/header/pink.png";
     import Transition from "./transition/+page.svelte"
 </script>
 
@@ -16,23 +16,24 @@
 
 
 	
-<footer class="p-8 overflow-hidden cadet text-white  shadow  dark:bg-gray-900">
+<footer class="p-8 w-screen overflow-hidden cadet text-white  shadow  dark:bg-gray-900">
     <div class="sm:flex sm:items-center sm:justify-between">
         <a href="/" class="flex items-center justify-center mb-4 sm:mb-0">
-            <img src={Logo} class="mr-3 w-7 h-8" alt="Logo">
+            <img src={Logo} class="mr-3 h-10" alt="Logo">
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Friend A Labs</span>
         </a>
-        <span class="block text-sm text-white text-center dark:text-gray-400">Copyright 2022 Editions | Made with 💙 by Friend A Labs
+        <span class="block text-sm text-white text-center dark:text-gray-400">Copyright 2022 Editions | 
+            Made with <span><a alt="" target=”_blank” href="">🧡</a></span> by <span><a alt="" target=”_blank” href="">Friend A Labs</a></span>
         </span>
         <ul class="flex flex-wrap mt-3 sm:mt-0 ml-5 sm:ml-0 items-center justify-center  text-sm text-white sm:mb-0 dark:text-gray-400">
             <li class="pr-5">
-                <a alt="" href="https://twitter.com/FriendALabs">
+                <a alt="" target=”_blank” href="https://twitter.com/FriendALabs">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         x="0px"
                         y="0px"
-                        width="20"
-                        height="20"
+                        width="25"
+                        height="25"
                         viewBox="0 0 30 30"
                         style=" fill:white;"
                     >
@@ -44,12 +45,22 @@
             </li>
            
             <li class="pr-5"> 
-                <a alt="" href="https://medium.com/friendalabs
+                <a alt="" target=”_blank” href="https://medium.com/friendalabs
                 "> 
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="25" height="25"
-                        viewBox="0 0 72 72"
-                        style=" fill:white;"><path d="M45.049,14C57.06,14,58,14.94,58,26.951v18.098C58,57.06,57.06,58,45.049,58H26.951C14.94,58,14,57.06,14,45.049V26.951	C14,14.94,14.94,14,26.951,14H45.049z M29.713,44.151c4.502,0,8.151-3.649,8.151-8.151c0-4.502-3.649-8.151-8.151-8.151	c-4.502,0-8.151,3.649-8.151,8.151C21.562,40.502,25.212,44.151,29.713,44.151z M42.713,43.757c2.228,0,4.034-3.473,4.034-7.757	c0-4.284-1.806-7.757-4.034-7.757c-2.228,0-4.034,3.473-4.034,7.757C38.679,40.284,40.485,43.757,42.713,43.757z M48.98,42.928	c0.775,0,1.403-3.102,1.403-6.928s-0.628-6.928-1.403-6.928c-0.775,0-1.403,3.102-1.403,6.928S48.205,42.928,48.98,42.928z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="25" height="25"
+                viewBox="0 0 48 48"
+                style=" fill:white;"><circle cx="14" cy="24" r="12" fill="white"></circle><ellipse cx="34" cy="24" fill="white" rx="6" ry="11"></ellipse><ellipse cx="44" cy="24" fill="white" rx="2" ry="10"></ellipse></svg>
+                </a>
+            </li>
+
+            <li class="pr-5"> 
+                <a alt="" target=”_blank” href="https://www.linkedin.com/company/friend-a-labs/about/
+                "> 
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="21" height="21"
+                viewBox="0 0 24 24"
+                style=" fill:white;"><path d="M 21.800781 0 L 2.199219 0 C 1 0 0 1 0 2.199219 L 0 21.800781 C 0 23 1 24 2.199219 24 L 21.800781 24 C 23 24 24 23 24 21.800781 L 24 2.199219 C 24 1 23 0 21.800781 0 Z M 7 20 L 3 20 L 3 9 L 7 9 Z M 5 7.699219 C 3.800781 7.699219 3 6.898438 3 5.898438 C 3 4.800781 3.800781 4 5 4 C 6.199219 4 7 4.800781 7 5.800781 C 7 6.898438 6.199219 7.699219 5 7.699219 Z M 21 20 L 17 20 L 17 14 C 17 12.398438 15.898438 12 15.601563 12 C 15.300781 12 14 12.199219 14 14 C 14 14.199219 14 20 14 20 L 10 20 L 10 9 L 14 9 L 14 10.601563 C 14.601563 9.699219 15.601563 9 17.5 9 C 19.398438 9 21 10.5 21 14 Z"></path></svg>
                 </a>
             </li>
             

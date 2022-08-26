@@ -26,29 +26,29 @@ import Star from "../../lib/header/stars.png";
         <h2 class="text-2xl montserrat">Editions is a holistic platform enhancing NFT discovery while empowering creators.</h2>
     <div class="flex flex-col sm:flex-row sm:gap-32 section-2"> 
         <div class="w-full mt-14 sm:mt-20"> 
-          <h1 class="font-bold brick-pink text-1xl mb-3">Creators</h1>
-          <ul class="montserrat"> 
-            <li class="mb-2">curate NFTs they want to display </li>
-            <li class="mb-2">earn a direct share whenever an NFT is purchased on their site </li>
-            <li class="mb-2">control, transparency, and higher revenue than any ad network </li>
+          <h1 class="font-bold brick-pink text-2xl mb-3">Creators</h1>
+          <ul class="montserrat list-disc"> 
+            <li class="mb-2">Curate NFTs they want to display.</li>
+            <li class="mb-2">Earn a direct share whenever an NFT is purchased on their site.</li>
+            <li class="mb-2">Control, transparency, and higher revenue than any ad network. </li>
           </ul>
         </div>
 
         <div class="w-full mt-10 sm:mt-20"> 
-            <h1 class="font-bold brick-pink text-1xl mb-3">Users</h1>
-            <ul class="montserrat"> 
-              <li class="mb-2">discover great NFTs from the creators they love</li>
-              <li class="mb-2">support their favorite artists </li>
-              <li class="mb-2">giving back and receiving revenue from using Editions</li>
+            <h1 class="font-bold brick-pink text-2xl mb-3">Users</h1>
+            <ul class="montserrat list-disc"> 
+              <li class="mb-2">Discover great NFTs from the creators they love.</li>
+              <li class="mb-2">Support their favorite artists. </li>
+              <li class="mb-2">Giving back and receiving revenue from using Editions.</li>
             </ul>
           </div>
 
           <div class="w-full mt-10 sm:mt-20"> 
-            <h1 class="font-bold brick-pink text-1xl mb-3">Artists, DAOs </h1>
-            <ul class="montserrat"> 
-              <li class="mb-2">enhance their reach and discovery of their NFTs </li>
-              <li class="mb-2">engage with holders in more meaningful ways </li>
-              <li class="mb-2">align with Editions value and social impact causes.</li>
+            <h1 class="font-bold brick-pink text-2xl mb-3">Artists, DAOs </h1>
+            <ul class="montserrat list-disc"> 
+              <li class="mb-2">Enhance their reach and discovery of their NFTs. </li>
+              <li class="mb-2">Engage with holders in more meaningful ways. </li>
+              <li class="mb-2">Align with Editions value and social impact causes.</li>
             </ul>
           </div>
 
