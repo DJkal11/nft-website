@@ -17,8 +17,8 @@ import Lucian from "../../lib/header/Lucian.jpg"
 <div class="scroll-smooth"> 
     <div class="chest h-full sm:h-screen bg-fixed p-14 sm:p-52 flex flex-col sm:flex-row gap-20">
         <div>
-        <h1 class="text-white cooper text-5xl sm:text-6xl font-extrabold mb-10">About Friend A Labs</h1>
-        <p class="text-white montserrat text-1xl sm:text-2xl font-normal">Friend A Labs started in 2022 when friends came together to discuss the lack of real consumer-focused applications in the blockchain industry.
+        <h1 class="text-white cooper text-5xl sm:text-7xl font-extrabold mb-10">About Friend A Labs</h1>
+        <p class="text-white montserrat text-xl sm:text-xl font-normal">Friend A Labs started in 2022 when friends came together to discuss the lack of real consumer-focused applications in the blockchain industry.
              Our founder, Shin, has been toying with the idea of building a better alternative for digital asset marketplaces and advertising for years.
               With Friend A Labs, these ideas are becoming reality.
             </p>
@@ -28,18 +28,18 @@ import Lucian from "../../lib/header/Lucian.jpg"
 
     <div class="flex almond flex-col sm:flex-row gap-5 sm:gap-32 px-10 sm:px-52 pb-28 pt-10 sm:pt-32"> 
         <div class="w-full sm:w-9/12"> 
-            <h1 class="text-7xl cooper brick-pink font-extrabold mb-10">Values</h1>
-            <h2 class="font-extrabold text-2xl brick-pink">Ship fast, then perfect it</h2>
-            <p class="text-1xl montserrat">Launch solid products fast, then work on ironing out small bugs and perfecting them using community feedback.</p>
+            <h1 class="text-6xl cooper brick-pink font-extrabold mb-10">Values</h1>
+            <h2 class="font-extrabold text-xl brick-pink">Ship fast, then perfect it</h2>
+            <p class="text-xl montserrat">Launch solid products fast, then work on ironing out small bugs and perfecting them using community feedback.</p>
                  <br />
-                 <h2 class="font-extrabold text-2xl brick-pink">Foster curiosity</h2>
-            <p class="text-1xl montserrat">Venturing off-topic often leads to very creative new approaches to existing challenges. We encourage team members to go down their respective rabbit holes, and apply what they learned later on.</p>
+                 <h2 class="font-extrabold text-xl brick-pink">Foster curiosity</h2>
+            <p class="text-xl montserrat">Venturing off-topic often leads to very creative new approaches to existing challenges. We encourage team members to go down their respective rabbit holes, and apply what they learned later on.</p>
                  <br />
-                 <h2 class="font-extrabold text-2xl brick-pink">Balance working together and giving people space</h2>
-            <p class="text-1xl montserrat">We love catching up with each other, bouncing off ideas, and thinking through tough problems. But we also give each other space to work on parts individually because we understand that this is often where people get in the zone and deliver awesome results.</p>
+                 <h2 class="font-extrabold text-xl brick-pink">Balance working together and giving people space</h2>
+            <p class="text-xl montserrat">We love catching up with each other, bouncing off ideas, and thinking through tough problems. But we also give each other space to work on parts individually because we understand that this is often where people get in the zone and deliver awesome results.</p>
                  <br />
-                 <h2 class="font-extrabold text-2xl brick-pink">Be a Friend A</h2>
-            <p class="text-1xl montserrat">That means being supportive, open-minded, and not shying away from big tasks. Overcome one's fears to empower others.</p>
+                 <h2 class="font-extrabold text-xl brick-pink">Be a Friend A</h2>
+            <p class="text-xl montserrat">That means being supportive, open-minded, and not shying away from big tasks. Overcome one's fears to empower others.</p>
         </div>
 
         <div class=" rounded-full"> 
@@ -51,8 +51,8 @@ import Lucian from "../../lib/header/Lucian.jpg"
     
 
     <div class="px-10 sm:px-52 pt-32"> 
-        <h1 class="text-7xl brick-pink text-left sm:text-center font-extrabold mb-10 cooper">THE TEAM</h1>
-        <p class="text-2xl text-black text-left sm:text-center montserrat">
+        <h1 class="text-6xl sm:text-6xl brick-pink text-left sm:text-center font-extrabold mb-10 cooper">THE TEAM</h1>
+        <p class="text-xl sm:text-xl text-black text-left sm:text-center montserrat">
             We are a bunch of technology enthusiasts who believe tech should empower and not undermine. 
             Collectively, we boast more than ten years in the blockchain space and have worked across protocols, apps, CEXs, and digital asset projects.
              We share a love for Memes and building cool things.
@@ -141,8 +141,8 @@ import Lucian from "../../lib/header/Lucian.jpg"
     </div>
 
     <div class="px-10 sm:px-52 pt-24 pb-10 chest"> 
-        <h1 class="text-white cooper text-7xl font-extrabold mb-10">Manifesto</h1>
-        <p class="text-2xl mb-16 sm:w-8/12 montserrat text-white">We are passionate supporters of content creators.<br />
+        <h1 class="text-white cooper text-6xl sm:text-6xl font-extrabold mb-10">Manifesto</h1>
+        <p class="text-xl sm:text-xl mb-16 sm:w-10/12 montserrat text-white">We are passionate supporters of content creators.<br />
             We root for all the artists trying to make it in the digital world.<br/>
             We empathize with all the users getting annoyed at all the popups and being followed wherever they go.<br/>
              
@@ -158,7 +158,7 @@ import Lucian from "../../lib/header/Lucian.jpg"
 
     <div> 
         <div class=" h-full   px-10 sm:px-52 pt-20 pb-20 sm:pt-20"> 
-            <h1 class=" cooper brick-pink text-7xl font-extrabold mb-10">FAQ</h1>
+            <h1 class=" cooper brick-pink text-6xl sm:text-6xl font-extrabold mb-10">FAQ</h1>
             <h2 class="cooper text-2xl font-bold mt-5">What is Editions?</h2>
             <p class="montserrat">Editions is a holistic platform consisting of a digital asset marketplace, 
                 Editions Fabric (discovery network), and a mobile app (not yet released). 

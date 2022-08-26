@@ -23,7 +23,7 @@
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Friend A Labs</span>
         </a>
         <span class="block text-sm text-white text-center dark:text-gray-400">Copyright 2022 Editions | 
-            Made with <span><a alt="" target=”_blank” href="">🧡</a></span> by <span><a alt="" target=”_blank” href="">Friend A Labs</a></span>
+            Made with <span><a alt="" target=”_blank” href="https://www.youtube.com/watch?v=WUQkBk_AGzQ">🧡</a></span> by <span><a alt="" target=”_blank” href="https://www.youtube.com/watch?v=00Bki1-MnEY">Friend A Labs</a></span>
         </span>
         <ul class="flex flex-wrap mt-3 sm:mt-0 ml-5 sm:ml-0 items-center justify-center  text-sm text-white sm:mb-0 dark:text-gray-400">
             <li class="pr-5">
