@@ -29,12 +29,12 @@
 
 <section  class="container-box">
 	
-	<div class="intro h-full sm:h-screen flex flex-col  px-10 sm:px-20 pt-20 sm:pt-24 sm:flex-row">
-        <div class="w-full text-left px-20 h-4/6 ">
-        <h1 class=" cooper text-white text-8xl font-extrabold mb-10">Step into the future of the digital economy</h1>
+	<div class="intro h-full sm:h-screen flex flex-col px-10 sm:px-20 pt-20 sm:pt-24 sm:flex-row">
+        <div class="w-full text-left sm:px-20 h-4/6 ">
+        <h1 class=" cooper text-white text-6xl sm:text-8xl font-extrabold">Step into the future of the digital economy</h1>
       
         </div>
-        <div class="mt-72"> 
+        <div class="mt-20 sm:mt-72 pb-10"> 
 			<p class=" text-white montserrat text-3xl font-extrabold">At Friend A Labs, we’re building blockchain-based tech to empower.
             </p>
             <a alt="" href="/about"><button class="border-white text-white border-2 cadet-colour hover:translate-y-3 hover:text-white font-bold py-4 px-6 rounded-full transition-all mt-10">Learn More</button></a>
@@ -42,16 +42,16 @@
     </div>
 
 	<div class="cadet h-full sm:h-full pb-10  px-10 sm:px-52 pt-20 sm:pt-28 "> 
-		<h1 class="text-white text-5xl cooper text-left font-bold mb-10 -ml-10">Our Products</h1>
+		<h1 class="text-white text-5xl cooper text-left font-bold mb-10 ml-0 sm:-ml-10">Our Products</h1>
 		<p class="text-xl montserrat text-white mb-10">Our first product, Editions, enhances the discovery of NFTs 
 			and changes the financial incentives of the attention economy to empower creators to focus on creating.</p>
          <img alt="" class="w-6/12 m-auto"  />
 	</div>
 
-	<div class="cadet h-full sm:h-full pb-32  px-10 sm:px-52 pt-20 sm:pt-10 ">
-		<h1 class="text-white cooper text-5xl font-bold mb-20 -ml-10">Editions</h1>
-		<div class="flex flex-row gap-x-10 cooper text-white"> 
-			<div class="h-10"> 
+	<div class="cadet h-full sm:h-full pb-32  px-10 sm:px-52 pt-10 sm:pt-10 ">
+		<h1 class="text-white cooper text-5xl font-bold mb-20 ml-0 sm:-ml-10">Editions</h1>
+		<div class="flex flex-col sm:flex-row gap-x-10 cooper text-white"> 
+			<div class=""> 
 				<h1 class="text-1xl font-bold mb-5">Digital Asset Marketplace</h1>
 				<hr class="mb-4 font-700"/>
 				<p class="montserrat"> Where artists create, 
@@ -59,21 +59,21 @@
 					and use their digital art.</p>
 			</div>
 
-			<div> 
+			<div class="mt-14 sm:mt-0"> 
 				<h1 class="text-1xl font-bold m-auto mb-5">Editions Fabric</h1>
 				<hr class="mb-4 font-700"/>
 				<p class="montserrat">Connecting the marketplace with the web, 
 					letting users interact with NFTs at ease. </p>
 			</div>
 
-			<div> 
+			<div class="mt-14 sm:mt-0"> 
 				<h1 class="text-1xl font-bold mb-5">Editions app</h1>
 				<hr class="mb-4 font-700"/>
 				<p class="montserrat">Mobile app to use digital assets irl 
 					and access the marketplace on the go. </p>
 			</div>
 
-			<div> 
+			<div class="mt-14 sm:mt-0"> 
 				<h1 class="text-1xl font-bold mb-5">Editions extensions</h1>
 				<hr class="mb-4 font-700"/>
 				<p class="montserrat">Enabling content creators on different platforms to 
@@ -83,19 +83,19 @@
 	</div>
 
 
-	<div class=" h-full sm:h-full pb-10  px-10 sm:px-52 pt-20 sm:pt-32 "> 
-		<h1 class="text-5xl text-lef brick-pink cooper font-bold mb-10 -ml-10">Our Mission</h1>
-		<p class="text-1xl montserrat mb-10 ml-10">To empower content creators to focus on creating.
+	<div class=" h-full sm:h-full pb-0 sm:pb-10  px-10 sm:px-52 pt-20 sm:pt-32 "> 
+		<h1 class="text-5xl text-lef brick-pink cooper font-bold mb-10 ml-0 sm:-ml-10">Our Mission</h1>
+		<p class="text-1xl montserrat mb-10 sm:mb-10 ml-10">To empower content creators to focus on creating.
 			 To empower users to discover artists and digital assets they care about. 
 			 To empower businesses to discover and be discovered. </p>
-			 <img alt="" class="w-7/12 ml-96 shadow-2xl rounded-lg" src={Anime} />
+			 <img alt="" class="w-full sm:w-7/12 m-auto sm:ml-96 shadow-2xl rounded-lg" src={Anime} />
 
 			 
         
 	</div>
 
-	<div class=" h-full sm:h-full pb-32  px-10 sm:px-52 pt-20 sm:pt-24"> 
-		<h1 class="text-5xl text-left brick-pink cooper font-bold mb-10 -ml-10">Why Blockchain?</h1>
+	<div class=" h-full sm:h-full pb-16 sm:pb-32  px-10 sm:px-52 pt-20 sm:pt-24"> 
+		<h1 class="text-5xl text-left brick-pink cooper font-bold mb-10 ml-0 sm:-ml-10">Why Blockchain?</h1>
 		<p class="text-1xl mb-10 montserrat ml-10">Blockchain allows creators, users, and artists to interact without intermediaries. It provides unprecedented levels of transparency in otherwise untransparent processes and efficiently distributes and allocates funds across borders. 
 
 			Blockchain increases accessibility, empowers users, and cuts down the monopolistic structures currently reigning over the digital economy. 
@@ -114,7 +114,7 @@
 
 <div class="px-10 sm:px-52 pt-24 pb-20 cadet">
 	<h1 class="cooper text-5xl text-white font-extrabold mb-10">Contact</h1>
-     <div class="flex flex-row ml-28 gap-x-40"> 
+     <div class="flex flex-col sm:flex-row ml-5 sm:ml-28 gap-x-40"> 
 		<div class=""> 
 			<h1 class="text-white text-2xl">Mail</h1>
 			<a alt="" href="mailto:hai@friendalabs.com" >hai@friendalabs.com</a>
@@ -124,7 +124,7 @@
 			
 		</div>
 
-		<div class="w-96"> 
+		<div class="w-full sm:w-96 mt-10 px-10 sm:px-0 sm:mt-0"> 
 			<h1 class="text-1xl text-white montserrat">Get in touch with us by email or follow us on twitter. We would love to hear from you.</h1>
 		</div>
 

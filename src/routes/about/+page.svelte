@@ -17,8 +17,8 @@ import Lucian from "../../lib/header/Lucian.jpg"
 <div class="scroll-smooth"> 
     <div class="chest h-full sm:h-screen bg-fixed p-14 sm:p-52 flex flex-col sm:flex-row gap-20">
         <div>
-        <h1 class="text-white cooper text-6xl font-extrabold mb-10">About Friend A Labs</h1>
-        <p class="text-white montserrat text-2xl font-normal">Friend A Labs started in 2022 when friends came together to discuss the lack of real consumer-focused applications in the blockchain industry.
+        <h1 class="text-white cooper text-5xl sm:text-6xl font-extrabold mb-10">About Friend A Labs</h1>
+        <p class="text-white montserrat text-1xl sm:text-2xl font-normal">Friend A Labs started in 2022 when friends came together to discuss the lack of real consumer-focused applications in the blockchain industry.
              Our founder, Shin, has been toying with the idea of building a better alternative for digital asset marketplaces and advertising for years.
               With Friend A Labs, these ideas are becoming reality.
             </p>
@@ -26,7 +26,7 @@ import Lucian from "../../lib/header/Lucian.jpg"
          
     </div>
 
-    <div class="flex almond flex-col sm:flex-row gap-20 sm:gap-32 px-10 sm:px-52 pb-28 pt-10 sm:pt-32"> 
+    <div class="flex almond flex-col sm:flex-row gap-5 sm:gap-32 px-10 sm:px-52 pb-28 pt-10 sm:pt-32"> 
         <div class="w-full sm:w-9/12"> 
             <h1 class="text-5xl cooper brick-pink font-extrabold mb-10">Values</h1>
             <h2 class="font-extrabold brick-pink">Ship fast, then perfect it</h2>
@@ -51,16 +51,16 @@ import Lucian from "../../lib/header/Lucian.jpg"
     
 
     <div class="px-10 sm:px-52 pt-32"> 
-        <h1 class="text-5xl brick-pink text-center font-extrabold mb-10 cooper">THE TEAM</h1>
-        <p class="text-1xl text-black text-center montserrat">
+        <h1 class="text-5xl brick-pink text-left sm:text-center font-extrabold mb-10 cooper">THE TEAM</h1>
+        <p class="text-1xl text-black text-left sm:text-center montserrat">
             We are a bunch of technology enthusiasts who believe tech should empower and not undermine. 
             Collectively, we boast more than ten years in the blockchain space and have worked across protocols, apps, CEXs, and digital asset projects.
              We share a love for Memes and building cool things.
         </p>
 
-        <div class="grid grid-cols-4 mt-20 gap-14 pb-20"> 
+        <div class="grid grid-cols-1 sm:grid-cols-4 mt-20 gap-14 pb-20"> 
             <div class=""> 
-                <img class="w-full h-64 rounded-lg shadow-2xl" alt="" src={Shin} />
+                <img class="w-52 sm:w-full sm:h-64 rounded-lg shadow-2xl" alt="" src={Shin} />
                 <h1 class="font-bold brick-pink mt-7">Shin the Dev</h1>
                 <h2 class="font-bold brick-pink mb-5">CEO & Founder</h2>
                 <ul class="space-cadet"> 
@@ -71,7 +71,7 @@ import Lucian from "../../lib/header/Lucian.jpg"
             </div>
 
             <div class=""> 
-                <img class="w-full h-64 rounded-lg shadow-2xl" alt="" src={Naomi} />
+                <img class="w-52 sm:w-full sm:h-64 rounded-lg shadow-2xl" alt="" src={Naomi} />
                 <h1 class="font-bold brick-pink mt-7">Naomi Oba</h1>
                 <h2 class="font-bold brick-pink mb-5">Co-Founder and CMO</h2>
                 <ul class="space-cadet"> 
@@ -82,7 +82,7 @@ import Lucian from "../../lib/header/Lucian.jpg"
             </div>
 
             <div class=""> 
-                <img class="w-full h-64 rounded-lg shadow-2xl" alt="" src={Matias} />
+                <img class="w-52 sm:w-full sm:h-64 rounded-lg shadow-2xl" alt="" src={Matias} />
                 <h1 class="font-bold brick-pink mt-7">Matias Forbord</h1>
                 <h2 class="font-bold brick-pink mb-5">Co-Founder and CTO</h2>
                 <ul class="space-cadet"> 
@@ -93,7 +93,7 @@ import Lucian from "../../lib/header/Lucian.jpg"
             </div>
 
             <div class=" "> 
-                <img class="w-full h-64 rounded-lg shadow-2xl" alt="" src={Lucian} />
+                <img class="w-52 sm:w-full sm:h-64 rounded-lg shadow-2xl" alt="" src={Lucian} />
                 <h1 class="font-bold brick-pink mt-7">Lucian Kallee</h1>
                 <h2 class="font-bold brick-pink mb-5">Front-End Developer</h2>
                 <ul class="space-cadet"> 
@@ -108,9 +108,9 @@ import Lucian from "../../lib/header/Lucian.jpg"
     </div>
 
     <div class="px-10 sm:px-52 pt-20"> 
-        <h1 class="brick-pink cooper text-6xl font-extrabold mb-10">Our Advisors</h1>
+        <h1 class="brick-pink cooper text-5xl sm:text-6xl font-extrabold mb-10">Our Advisors</h1>
 
-        <div class="grid grid-cols-3 mt-20 gap-14 pb-20">
+        <div class="grid grid-cols-1 sm:grid-cols-3 mt-20 gap-14 pb-20">
             <div class=" "> 
                 <img class="w-52 shadow-2xl rounded-lg" alt="" src={Mark} />
                 <h1 class="font-bold text-2xl mb-5 brick-pink mt-7">Mark Beylin </h1>
@@ -145,7 +145,7 @@ import Lucian from "../../lib/header/Lucian.jpg"
 
     <div class="px-10 sm:px-52 pt-24 pb-10 chest"> 
         <h1 class="text-white cooper text-5xl font-extrabold mb-10">Manifesto</h1>
-        <p class="text-1xl mb-16 w-8/12 montserrat text-white">We are passionate supporters of content creators.<br />
+        <p class="text-1xl mb-16 sm:w-8/12 montserrat text-white">We are passionate supporters of content creators.<br />
             We root for all the artists trying to make it in the digital world.<br/>
             We empathize with all the users getting annoyed at all the popups and being followed wherever they go.<br/>
              

@@ -14,9 +14,9 @@ let message;
 </svelte:head>
 
 <div> 
-    <div class="intro h-full pb-32 px-10 sm:px-52 pt-20 sm:pt-20 flex flex-row gap-32"> 
+    <div class="intro h-full pb-32 px-10 sm:px-52 pt-20 sm:pt-20 flex flex-col sm:flex-row gap-32"> 
 
-        <div class="w-5/12"> 
+        <div class=" sm:w-5/12"> 
    <h1 class="cedar-chest-colour cooper text-6xl font-bold mb-10">Contact Us</h1>
 
     <div class="relative z-0 mb-6 w-full group">
@@ -39,13 +39,13 @@ let message;
       
     </div>
    
-    <a alt="" href="mailto:hai@friendalabs.com?subject={name}&body={message}"><button class="text-white cedar-chest focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button></a>
+    <a alt="" href="mailto:hai@friendalabs.com?subject={name}&body={message}"><button class="text-white cedar-chest focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-auto sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button></a>
   
   
 
         </div>
 
-        <div class="w-5/12 mt-5"> 
+        <div class="w-5/12 mt-5 sm:block hidden"> 
          <img alt="" class="rounded-full" src={Pencil} />
         </div>
     </div>

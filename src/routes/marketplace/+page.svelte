@@ -8,9 +8,9 @@ import Star from "../../lib/header/stars.png";
 </svelte:head>
 
 <div> 
-    <div class="intro h-full sm:h-screen px-10 sm:px-52 pt-20 sm:pt-32 gap-10">
-        <div class="w-full text-center mt-36">
-        <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">NFTs are here to stay, but how we use them will change. </h1>
+    <div class="intro  h-screen px-10 sm:px-52 pt-20 sm:pt-32 gap-10">
+        <div class="w-full text-center sm:mt-36">
+        <h1 class=" cooper brick-pink text-5xl sm:text-6xl font-extrabold mb-10">NFTs are here to stay, but how we use them will change. </h1>
         <p class=" text-white montserrat-bold text-2xl font-normal">In the future, they can be anything digital.
             </p>
            
@@ -22,10 +22,10 @@ import Star from "../../lib/header/stars.png";
     </div>
 
     <div class="px-10 sm:px-52 pt-14 sm:pt-32 mb-20">
-        <h1 class="brick-pink cooper text-6xl font-extrabold mb-5">Discover great NFTs with Editions</h1>
+        <h1 class="brick-pink cooper text-5xl sm:text-6xl font-extrabold mb-5">Discover great NFTs with Editions</h1>
         <h2 class="text-2xl montserrat">Editions is a holistic platform enhancing NFT discovery while empowering creators.</h2>
-    <div class="flex flex-col sm:flex-row gap-14 sm:gap-32 section-2"> 
-        <div class="w-full mt-20"> 
+    <div class="flex flex-col sm:flex-row sm:gap-32 section-2"> 
+        <div class="w-full mt-14 sm:mt-20"> 
           <h1 class="font-bold brick-pink text-1xl mb-3">Creators</h1>
           <ul class="montserrat"> 
             <li class="mb-2">curate NFTs they want to display </li>
@@ -34,7 +34,7 @@ import Star from "../../lib/header/stars.png";
           </ul>
         </div>
 
-        <div class="w-full mt-20"> 
+        <div class="w-full mt-10 sm:mt-20"> 
             <h1 class="font-bold brick-pink text-1xl mb-3">Users</h1>
             <ul class="montserrat"> 
               <li class="mb-2">discover great NFTs from the creators they love</li>
@@ -43,7 +43,7 @@ import Star from "../../lib/header/stars.png";
             </ul>
           </div>
 
-          <div class="w-full mt-20"> 
+          <div class="w-full mt-10 sm:mt-20"> 
             <h1 class="font-bold brick-pink text-1xl mb-3">Artists, DAOs </h1>
             <ul class="montserrat"> 
               <li class="mb-2">enhance their reach and discovery of their NFTs </li>

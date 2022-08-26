@@ -24,7 +24,7 @@
         </a>
         <span class="block text-sm text-white text-center dark:text-gray-400">Copyright 2022 Editions | Made with 💙 by Friend A Labs
         </span>
-        <ul class="flex flex-wrap items-center justify-center mb-6 text-sm text-white sm:mb-0 dark:text-gray-400">
+        <ul class="flex flex-wrap mt-3 sm:mt-0 ml-5 sm:ml-0 items-center justify-center  text-sm text-white sm:mb-0 dark:text-gray-400">
             <li class="pr-5">
                 <a alt="" href="https://twitter.com/FriendALabs">
                     <svg
