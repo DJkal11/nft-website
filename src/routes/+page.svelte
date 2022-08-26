@@ -6,11 +6,19 @@
     <link href="https://www.dafontfree.net/embed/Y29vcGVyLWhld2l0dC1ib29rJmRhdGEvMTYvYy83ODAwMy9Db29wZXJIZXdpdHQtQm9vay5vdGY" rel="stylesheet" type="text/css"/>
 </svelte:head>
 
-<script  context="module" lang="js">
+<script   lang="js">
 	import Tree from "../lib/header/trees2.png";
 	import Pic3 from "../lib/header/pic3.png";
 	import Anime from "../lib/header/anime.png";
+	import { navItem } from '../store';
+	import { goto } from '$app/navigation';
 	
+
+	function bordered() {
+		navItem.set("about");
+		console.log(navItem);
+		goto("/about");
+	}
 	
 
 	let name = "";
@@ -37,7 +45,7 @@
         <div class="mt-20 sm:mt-72 pb-10"> 
 			<p class=" text-white montserrat text-3xl font-extrabold">At Friend A Labs, we’re building blockchain-based tech to empower.
             </p>
-            <a alt="" href="/about"><button class="border-white text-white border-2 cadet-colour hover:translate-y-3 hover:text-white font-bold py-4 px-6 rounded-full transition-all mt-10">Learn More</button></a>
+            <button on:click={bordered} class="border-white text-white border-2 cadet-colour hover:translate-y-3 hover:text-white font-bold py-4 px-6 rounded-full transition-all mt-10">Learn More</button>
         </div>  
     </div>
 

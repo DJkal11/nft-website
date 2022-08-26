@@ -1,9 +1,32 @@
 <script>
 	import Logo from "./pink.png";
 	import NewLogo from "./LOGO1.svg";
+	import { navItem } from '../../store.js';
 	
+	let about = "";
+	let learn = "about";
     let tab = "home";
 	let menu = false;
+
+	navItem.subscribe(value => {
+		about = value;
+		if (about === "about"){
+		tab = "";
+	}
+	});
+
+
+	function home () {
+		navItem.set("");
+		about = "";
+		tab = "home";
+	}
+
+	function marketplace() {
+		navItem.set("");
+		about = "";
+		tab = "market";
+	}
 
 	function showMenu() {
 		if (menu === false){
@@ -31,13 +54,13 @@
 	  <div class="hidden w-full md:block md:w-auto" id="navbar-default">
 		<ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
 			<li class="{tab === "home" ? 'opal border-b-2 pr-1 transition-all' : 'opal hover:border-b-2 transition-all'}">
-				<a href="/" on:click={() => tab = "home"} class="block  py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">HOME</a>
+				<a href="/" on:click={home} class="block  py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">HOME</a>
 			  </li>
-		  <li class="{tab === "about" ? 'opal border-b-2 pr-1 transition-all' : 'opal hover:border-b-2 transition-all'}">
+		  <li class="{tab === "about" || learn === about ? 'opal border-b-2 pr-1 transition-all' : 'opal hover:border-b-2 transition-all'}">
 			<a href="/about" on:click={() => tab = "about"} class="block py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">ABOUT</a>
 		  </li>
 		  <li class="{tab === "market" ? 'opal border-b-2 pr-1 transition-all' : 'opal hover:border-b-2 transition-all'}">
-			<a href="/marketplace" on:click={() => tab = "market"} class="block py-2 pr-4 pl-3 text-gray-700 rounded  md:p-0 ">PRODUCTS</a>
+			<a href="/marketplace" on:click={marketplace} class="block py-2 pr-4 pl-3 text-gray-700 rounded  md:p-0 ">PRODUCTS</a>
 		  </li>
 		  <!-- <li class="{tab === "contact" ? 'opal border-b-2 pr-1 transition-all' : 'opal hover:border-b-2 transition-all'}">
 			<a href="/contact" on:click={() => tab = "contact"} class="block py-2 pr-4 pl-3 text-gray-700 rounded md:p-0">CONTACT</a>
