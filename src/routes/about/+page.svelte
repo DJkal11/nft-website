@@ -161,7 +161,7 @@ import Lucian from "../../lib/header/Lucian.jpg"
 
     <div> 
         <div class=" h-full   px-10 sm:px-52 pt-20 pb-20 sm:pt-20"> 
-            <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">General</h1>
+            <h1 class=" cooper brick-pink text-6xl font-extrabold mb-10">FAQ</h1>
             <h2 class="cooper text2xl font-bold mt-5">What is Editions?</h2>
             <p class="montserrat">Editions is a holistic platform consisting of a digital asset marketplace, 
                 Editions Fabric (discovery network), and a mobile app (not yet released). 
