@@ -7,10 +7,12 @@ import Naomi from "../../lib/header/Naomi.png";
 import Matias from "../../lib/header/Matias.jpg";
 import Shin from "../../lib/header/shin.jpg";
 import Lucian from "../../lib/header/Lucian.jpg"
+import Logo from '../../lib/header/pink.png'
 </script>
 
 <svelte:head>
 	<title>About</title>
+    <link rel="icon" type="image/png" href={Logo} />
     <link href="https://www.dafontfree.net/embed/Y29vcGVyLWhld2l0dC1ib29rJmRhdGEvMTYvYy83ODAwMy9Db29wZXJIZXdpdHQtQm9vay5vdGY" rel="stylesheet" type="text/css"/>
 </svelte:head>
 

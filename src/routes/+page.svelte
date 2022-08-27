@@ -7,6 +7,7 @@
 	import Anime from "../lib/header/anime.png";
 	import { navItem } from '../store';
 	import { goto } from '$app/navigation';
+	import Logo from '../lib/header/pink.png'
 
 	function bordered() {
 		navItem.set("about");
@@ -28,6 +29,7 @@
 
 <svelte:head>
 	<title>Home</title>
+	<link rel="icon" type="image/png" href={Logo} />
 	<meta name="description" content="Welcome to Friend A Labs 🦆" />
 	<script src="https://cdn.jsdelivr.net/npm/flowbite@1.5.2/dist/flowbite.min.js"></script>
     <link href="https://www.dafontfree.net/embed/Y29vcGVyLWhld2l0dC1ib29rJmRhdGEvMTYvYy83ODAwMy9Db29wZXJIZXdpdHQtQm9vay5vdGY" rel="stylesheet" type="text/css"/>

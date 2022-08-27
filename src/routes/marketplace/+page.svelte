@@ -1,9 +1,11 @@
 <script> 
 import Star from "../../lib/header/stars.png";
+import Logo from '../../lib/header/pink.png'
 </script>
 
 <svelte:head>
 	<title>Products</title>
+  <link rel="icon" type="image/png" href={Logo} />
     <link href="https://www.dafontfree.net/embed/Y29vcGVyLWhld2l0dC1ib29rJmRhdGEvMTYvYy83ODAwMy9Db29wZXJIZXdpdHQtQm9vay5vdGY" rel="stylesheet" type="text/css"/>
 </svelte:head>
 
